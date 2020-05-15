@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="top">
-      <div class="top-top">
+      <div class="top-top" @click="underdevelopment">
         <div class="top-top-left">
           <div class="top-top-left-left">
             <img src="https://s1.ax1x.com/2020/04/22/JUmPuq.png" />
@@ -16,40 +16,40 @@
         </div>
       </div>
       <div class="top-bottom">
-        <div class="top-bottom-item">
+        <div class="top-bottom-item" @click="underdevelopment">
           <div class="top-bottom-item-top">26</div>
           <div class="top-bottom-item-bottom">关注</div>
         </div>
-        <div class="top-bottom-item">
+        <div class="top-bottom-item" @click="underdevelopment">
           <div class="top-bottom-item-top">0</div>
           <div class="top-bottom-item-bottom">粉丝</div>
         </div>
-        <div class="top-bottom-item">
+        <div class="top-bottom-item" @click="underdevelopment">
           <div class="top-bottom-item-top">0</div>
           <div class="top-bottom-item-bottom">推荐</div>
         </div>
       </div>
     </div>
     <div class="middle">
-      <div class="middle-item">
+      <div class="middle-item" @click="underdevelopment">
         <div class="middle-item-top"><i class="iconfont icon-icon_fuben" /></div>
         <div class="middle-item-bottom">收到的喜欢</div>
       </div>
-      <div class="middle-item">
+      <div class="middle-item" @click="underdevelopment">
         <div class="middle-item-top"><i class="iconfont icon-pinglun" /></div>
         <div class="middle-item-bottom">评论</div>
       </div>
-      <div class="middle-item">
+      <div class="middle-item" @click="underdevelopment">
         <div class="middle-item-top"><i class="iconfont icon-qunliao" /></div>
         <div class="middle-item-bottom">聊天</div>
       </div>
-      <div class="middle-item">
+      <div class="middle-item" @click="underdevelopment">
         <div class="middle-item-top"><i class="iconfont icon-tongzhi" /></div>
         <div class="middle-item-bottom">通知</div>
       </div>
     </div>
     <div class="bottom-line">
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-icon-test" />
         </div>
@@ -62,7 +62,7 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-icon_fuben" />
         </div>
@@ -75,7 +75,7 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-wallet_icon" />
         </div>
@@ -88,7 +88,7 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-zuji" />
         </div>
@@ -101,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-youxiang" />
         </div>
@@ -116,7 +116,7 @@
       </div>
     </div>
     <div class="bottom-line">
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-V" />
         </div>
@@ -129,7 +129,7 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-J" />
         </div>
@@ -142,7 +142,7 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-u" />
         </div>
@@ -155,7 +155,7 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-duxiaoshuo" />
         </div>
@@ -170,7 +170,7 @@
       </div>
     </div>
     <div class="bottom-line">
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-erji" />
         </div>
@@ -183,7 +183,7 @@
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item" @click="underdevelopment">
         <div class="item-left">
           <i class="iconfont icon-icon_setting" />
         </div>
@@ -209,7 +209,18 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return {
 
+    }
+  },
+  methods: {
+    underdevelopment() {
+      alert('_(:3」∠❀)还没开发')
+    }
+  }
+}
 </script>
 <style lang="less" scoped>
   .main {
@@ -364,7 +375,6 @@
       position: relative;
       .advertisement-img {
         margin: 2vw auto;
-        background-color: #42b983;
         width: 95vw;
         border-radius: 2vw;
         overflow: hidden;
