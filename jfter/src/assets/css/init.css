@@ -82,3 +82,8 @@ html, body, #app {
   fill: currentColor;
   overflow: hidden;
 }
+
+@font-face {
+  font-family: 汉仪乐喵体;
+  src: url("../font/汉仪乐喵体.ttf");
+}

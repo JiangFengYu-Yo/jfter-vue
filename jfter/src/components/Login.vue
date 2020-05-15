@@ -76,7 +76,7 @@
       height: 50vh;
       color: #fff;
       font-size: 5vw;
-      font-weight: bold;
+      font-family: 汉仪乐喵体;
       .van-swipe-item {
         display: flex;
         justify-content: space-around;
@@ -115,6 +115,7 @@
           padding: 0 5vw;
           box-sizing: border-box;
           text-align: center;
+          font-family: 汉仪乐喵体;
         }
       }
       .middle-top-bottom {
@@ -129,7 +130,9 @@
           padding: 0 5vw;
           box-sizing: border-box;
           text-align: center;
+          font-family: 汉仪乐喵体;
         }
+
       }
     }
     .middle-bottom {
@@ -140,7 +143,7 @@
       justify-content: space-around;
       color: #fff;
       font-size: 5vw;
-      font-weight: bold;
+      font-family: 汉仪乐喵体;
       .middle-bottom-left {
         background-image: linear-gradient(to right, #fa709a, #fee140);
         padding: 1vw;
